@@ -1,0 +1,72 @@
+.btn1{
+    align-items: center;
+    background-color: rgb(197, 194, 194);
+    border: 2px solid #000;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background 0.5s, width 1s; 
+    height: 60px;
+    width: 200px;
+
+  }
+  .btn1:hover{
+    background-color: #161516;
+    color: white;
+  }
+  .btn1:focus {
+    color: #171e29;
+  }
+
+  .btn2{
+    background-color: #b93f2e;
+    border-radius: 10px;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 18px;
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    height: 40px;
+    width: 200px;
+    text-transform: uppercase;
+  }
+
+  .btn2:hover {
+    background: linear-gradient(
+        to top,
+        #b93f2e 10%,
+        rgb(236, 80, 60) 80%
+     ) ;
+    color: white;
+  }
+
+  .btn3{
+      background-color: rgb(236, 231, 232);
+      background-image: url(../img/logo-tiktok.png);
+      background-position-x:10px;
+      background-position-y:13px;
+      background-repeat: no-repeat;
+      background-size: 50px;
+      color: rgb(104, 98, 98);
+      display: inline-block;
+      font-size: 20px;
+      height: 40px;
+      padding: 25px 0 10px 75px  ;
+      text-decoration: none;
+      width: 180px;
+  }
+  .btn3:hover{
+    background-size: 20%;
+    transition: all 0.9s ease-in-out;
+    text-decoration: underline;
+    }
+  p{
+    font-family:Arial, Helvetica, sans-serif;
+  }
