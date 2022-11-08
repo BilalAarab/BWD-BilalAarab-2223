@@ -1,0 +1,131 @@
+/**
+ *
+ * Common styles
+ *
+ * @author !put your name here!
+ *
+ */
+
+/* ===========================================
+   General
+   =========================================== */
+
+/* html, body and general element styles here */
+/* ... */
+html{
+   background-color:#dfdfdf  ;
+   font-family: 'Roboto', sans-serif;
+}
+body{
+   margin-top: 0;
+   background-color: white;
+}
+
+/* ===========================================
+   Menu
+   =========================================== */
+
+/* menu styles here */
+/* ... */
+
+header li {
+   color: black;
+   font-size: 16px;
+   padding: 5px 10px;
+   margin: 4px 2px;
+   text-align: center;
+   display: inline-block;
+}
+
+header li a{
+   text-decoration: none;
+   color: black;
+}
+header a:hover{
+   color: white;
+}
+header li:hover{
+   background-color: #b52025;
+   color: white;
+}
+
+
+
+/* ===========================================
+   Banner
+   =========================================== */
+
+/* banner styles here */
+/* ... */
+#banner{
+   background-image: url(../img/slider_photo2.jpg);
+   border: solid 5px #b52025;
+   box-shadow: 3px 5px 5px;
+}
+
+#banner p{
+   background: rgba(0%, 0%, 0%, 0.55);
+   color: rgba(255%, 255%, 255%, 0.75);
+   
+}
+/* ===========================================
+   Main
+   =========================================== */
+
+/* main styles here */
+/* ... */
+main{
+   border-bottom-style: dotted;
+   border-color: #dfdfdf;
+}
+main h3{
+   color: #b52025;
+   text-transform: uppercase;
+}
+
+.more{
+   border: 1px solid #b52025;
+   border-radius: 5px;
+   color: #b52025;
+   font-size: 16px;
+   margin-left: 540px;
+   text-align: center;
+   padding: 2px;
+}
+.more a{
+   color: #b52025;
+   text-decoration: none;
+
+}
+.more a:hover{
+   text-decoration: none;
+   color: white;
+}
+.more:hover{
+   background-color: #b52025;
+   color: white;
+}
+.minibanner{
+   border: 1.5px solid #dfdfdf;
+}
+
+#email {
+   background-color: #fdeaeb;
+}
+
+.Sign{
+   background-color: #b52025;
+   color: white;
+}
+/* ===========================================
+   Footer
+   =========================================== */
+
+/* footer styles here */
+/* ... */
+
+footer {
+   background-color: #dfdfdf;
+   text-align: center;  
+
+}
