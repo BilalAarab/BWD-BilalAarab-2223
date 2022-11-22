@@ -14,11 +14,14 @@
 /* ... */
 html{
    background-color:#dfdfdf  ;
-   font-family: 'Roboto', sans-serif;
+   font-family: 'Roboto', 'sans-serif';
 }
 body{
-   margin-top: 0;
+   
    background-color: white;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   margin-top: 0;
 }
 
 /* ===========================================
@@ -30,26 +33,30 @@ body{
 
 header li {
    color: black;
+   display: inline-block;
    font-size: 16px;
    padding: 5px 10px;
    margin: 4px 2px;
    text-align: center;
-   display: inline-block;
-}
-
-header li a{
-   text-decoration: none;
-   color: black;
-}
-header a:hover{
-   color: white;
 }
 header li:hover{
    background-color: #b52025;
    color: white;
+   transition: 0.3s ;
+   
+}
+header li a{
+   color: black;
+   text-decoration: none;
+}
+header a:hover{
+   color: white;
 }
 
-
+header .active{
+   background-color: #b52025;
+   transition: 0.3s ;
+}
 
 /* ===========================================
    Banner
@@ -64,8 +71,9 @@ header li:hover{
 }
 
 #banner p{
-   background: rgba(0%, 0%, 0%, 0.55);
-   color: rgba(255%, 255%, 255%, 0.75);
+   background: rgba(0, 0, 0, 0.671);
+   color: white;
+
    
 }
 /* ===========================================
@@ -83,26 +91,37 @@ main h3{
    text-transform: uppercase;
 }
 
+main h3::after{
+   content: "→";
+}
+p{
+   text-align: justify;
+}
+
 .more{
    border: 1px solid #b52025;
    border-radius: 5px;
    color: #b52025;
    font-size: 16px;
    margin-left: 540px;
-   text-align: center;
    padding: 2px;
+   text-align: center;
+}
+.more::after {
+   content: "≫";
+  }
+
+.more:hover{
+   background-color: #b52025;
+   color: white;
 }
 .more a{
    color: #b52025;
    text-decoration: none;
-
+   
 }
 .more a:hover{
    text-decoration: none;
-   color: white;
-}
-.more:hover{
-   background-color: #b52025;
    color: white;
 }
 .minibanner{
@@ -113,10 +132,11 @@ main h3{
    background-color: #fdeaeb;
 }
 
-.Sign{
+form input[type="submit"]{
    background-color: #b52025;
    color: white;
 }
+
 /* ===========================================
    Footer
    =========================================== */
@@ -124,8 +144,9 @@ main h3{
 /* footer styles here */
 /* ... */
 
-footer {
+footer{
    background-color: #dfdfdf;
+}
+footer p{
    text-align: center;  
-
 }
