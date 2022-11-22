@@ -118,15 +118,8 @@ header {
 /* FOOTER */
 /* ======= */
 
-footer {
-    height: 50px;
-    width: 100%;
-}
-
-footer p{
-    display: inline;
-    float: left;
-    text-align: left;
-    width: 50%;
+footer .wrapper {
+    display: flex;
+    justify-content: space-between;
 }
 
