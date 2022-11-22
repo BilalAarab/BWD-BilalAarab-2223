@@ -8,9 +8,9 @@
 /* GENERAL */
 /* ======= */
 .wrapper {
-    max-width: 960px;
     margin-left: auto;
     margin-right: auto;
+    max-width: 960px;
 }
 
 img {
@@ -28,17 +28,17 @@ body {
 }
 
 nav ul {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     float: right;
+    justify-content: space-between;
 }
 
 li {
-    width: 23%;
     margin: 10px;
+    width: 23%;
 }
 
 header {
@@ -48,16 +48,16 @@ header {
 /* MAIN */
 /* ====== */
 #gallery ul {
+    align-items: flex-start;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-start;
     max-width: 100%;
 }
 
 #gallery li {
-    width: 23%;
     margin: 8px;
+    width: 23%;
 }
 #gallery img {
     max-width: 100%
@@ -126,7 +126,7 @@ footer {
 footer p{
     display: inline;
     float: left;
-    width: 50%;
     text-align: left;
+    width: 50%;
 }
 
