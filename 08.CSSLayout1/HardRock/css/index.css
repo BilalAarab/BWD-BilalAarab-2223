@@ -1,0 +1,94 @@
+/* ===========================================
+   Banner
+   =========================================== */
+
+   #banner {
+      background-image: url(../img/banner.jpg);
+      background-size: cover;
+   }
+   
+   .banner_box {
+      margin: 0px auto;
+      max-width: 960px;
+      padding: 120px 0 60px 0;
+      width: 100%;
+   }
+   
+   .banner_box .btn-cta {
+      font-size: 18px;
+      padding: 14px 60px;   
+   }
+   
+   .banner_box p {
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 30px;
+   }
+   
+   /* ===========================================
+      Main
+      =========================================== */
+   
+   main {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      max-width: 960px;
+      width: 100%;
+   }
+   
+   .readmore{
+      display: flex;
+      margin-top: 10px;
+   }
+   /* left */
+   
+   .left {
+      padding: 30px 15px 0 15px;
+      width: 640px;
+     
+   }
+   
+   #gallery {
+      display: flex;
+      flex-flow: row wrap;
+      margin: 35px 0;
+      margin-bottom: 10px;
+   }
+
+   #gallery img{
+      max-width: 100%;
+   }
+   
+   #gallery a{
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      padding: 3px;
+      width: 25%;
+   }
+
+   /* right */
+   
+   .right {
+      float: right;
+      padding: 30px 15px 0 15px;
+      width: 34%;
+   }
+   
+   .right h3 a {
+      color: #333;
+      border-bottom: 1px solid #cccccc;
+   }
+   
+   .right h3 a:hover {
+      color: #be0a35;
+      text-decoration: none;
+   }
+   
+   .right img{ 
+      float: left;
+      margin-right: 10px;
+      width: 20%;
+   }

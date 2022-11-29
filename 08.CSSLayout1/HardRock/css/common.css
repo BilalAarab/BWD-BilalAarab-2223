@@ -1,0 +1,226 @@
+/**
+ * Common styles
+ *
+ * @author Rogier van der Linde <rogier.vanderlinde@kahosl.be>
+ *
+ */
+
+/* ===========================================
+   General
+   =========================================== */
+
+/* reset */
+
+* {
+   box-sizing: border-box; /* width and height include paddings and borders */
+   margin: 0; /* wipe out browser differences */
+   padding: 0; /* wipe out browser differences */ 
+}
+
+img {
+   border: 0;
+   max-width: 100%;
+}
+   
+body {
+	background-color: #f5f5f5;
+	font-family: Arial, Verdana, Tahoma;
+	font-size: 14px; 
+   line-height: 1.4;
+}
+
+/* elements */
+
+h1, h2, h3 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+h2 {
+	color: #333;
+	font-size: 24px;
+	font-weight: normal;
+	margin-bottom: 25px;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+a {
+	color: #17a348;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #14833b;
+	text-decoration: underline;
+}
+
+/* classes */
+
+a.lnk-cta {
+   font-size: 20px;
+}
+
+a.lnk-cta::after {
+   content: " »";
+}
+
+.btn-cta {
+   border-bottom: 3px solid rgba(0, 0, 0, 0.15);
+   background-color: #17a348;
+   border-radius: 3px;
+   color: #fff;
+   cursor: pointer;
+   display: inline-block;
+   font-size: 16px;
+   font-weight: 600;
+   padding: 8px 16px;   
+   text-decoration: none;
+   text-transform: uppercase;
+   transition: background 0.5s;
+   white-space: nowrap;
+}
+
+a.btn-cta {
+   text-decoration: none;
+}
+
+a.btn-cta:hover {
+   color: #fff;
+}
+
+.btn-cta:hover {
+   background-color: #14833b;
+}
+
+/* ===========================================
+   Header
+   =========================================== */
+
+header {
+   background: linear-gradient(0deg, rgba(200,200,200,1) 35%, rgba(240,240,240,1) 85%);
+   display: flex;
+   justify-content: center;
+} 
+
+header .wrapper {
+   display: flex;
+   flex-flow: row nowrap;
+	padding: 20px 0;
+   justify-content: space-between;
+   margin: 0;
+   max-width: 960px;
+   width: 100%;
+}  
+
+header .wrapper p{
+   text-align: right;
+}
+/* logo */
+
+.logo h1 {
+	font-size: 48px;
+}
+
+.logo h1 a {
+	color: #333;
+   font-family: 'Special Elite', cursive;
+}
+
+.logo h1 a:hover {
+	text-decoration: none;
+}
+
+.logo p {
+   color: #555;
+	font-size: 14px;
+	font-style: italic;
+}
+
+/* navigation */
+
+#mainmenu {
+   align-content: center;
+   display: flex;
+   flex-flow: row nowrap;
+   list-style: none;
+   justify-content: flex-end;
+   margin-top: 30px;
+}
+
+#mainmenu a {
+   color: #000;
+   display: block;
+   font-size: 17px;
+   margin: 10px;
+   text-transform: uppercase;
+}
+
+#mainmenu a:hover,
+#mainmenu .active a {
+	color: #14833b;
+	text-decoration: none;
+}
+
+/* ===========================================
+   Main content
+   =========================================== */
+
+/* general */
+
+main {
+	background-color: #fff;
+   padding-bottom: 50px;
+}
+
+main p {
+	color: #666;
+	line-height: 20px;
+}
+
+.wrapper {
+	justify-content: space-between;
+	margin: 0px auto;
+	max-width: 960px;
+	width: 100%;
+}
+
+/* ===========================================
+   Footer
+   =========================================== */
+
+footer {
+   align-items: center;
+   background-color: #fff;
+   border-top: 2px solid #ebeceb;
+   color: #666;
+   display: flex;
+   flex-flow: row nowrap;
+   font-size: 11px;
+   justify-content: space-between;
+   margin: 0;
+   padding: 10px;
+}
+
+footer > div a {
+   color: #666;
+   font-size: 11px;
+	text-decoration: underline;
+}
+#social_icons {
+	display: flex;
+   flex-flow: row wrap;
+   list-style: none;   
+}
+
+#social_icons li{
+   list-style: none;
+   padding: 10px;
+}
