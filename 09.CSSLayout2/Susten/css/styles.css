@@ -2,15 +2,14 @@ h1,
 h2,
 h3 {
     color: rgb(39, 163, 194);
-    font-family: 'Manjari';
+    font-family: 'Manjari' sans-serif;
     font-weight: bold;
 }
 
 p,
 a,
 small {
-    font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, Geneva, Verdana, sans-serif;
-    ;
+    font-family: Lucida 'Grande', Lucida 'Sans Unicode', Lucida 'Sans', 'Geneva', Verdana, sans-serif;
     font-size: 17px;
 }
 
@@ -82,9 +81,6 @@ header .wrapper {
 .banner_box {
     padding: 100px 300px 40px 0;
     margin: 0px auto;
-}
-
-.banner_box {
     color: white;
 }
 
