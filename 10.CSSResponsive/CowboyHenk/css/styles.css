@@ -402,6 +402,9 @@ aside {
     .popular li img {
         width: 10%;
     }
+	.site_footer .social a{
+        font-size: 32px;
+    }
 
 }
 
