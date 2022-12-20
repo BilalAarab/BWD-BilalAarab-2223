@@ -1,0 +1,32 @@
+/* ===========================================
+   Footer
+   =========================================== */
+
+   footer {
+    align-items: center;
+    background-color: #fff;
+    border-top: 2px solid #ebeceb;
+    color: #666;
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 11px;
+    justify-content: space-between;
+    margin: 0;
+    padding: 10px;
+ }
+ 
+ footer > div a {
+    color: #666;
+    font-size: 11px;
+     text-decoration: underline;
+ }
+ #social_icons {
+     display: flex;
+    flex-flow: row wrap;
+    list-style: none;   
+ }
+ 
+ #social_icons li{
+    list-style: none;
+    padding: 10px;
+ }

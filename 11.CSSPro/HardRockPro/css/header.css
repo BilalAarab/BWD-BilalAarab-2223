@@ -1,0 +1,44 @@
+/* ===========================================
+   Header
+   =========================================== */
+
+   header {
+    background: linear-gradient(0deg, rgba(200,200,200,1) 35%, rgba(240,240,240,1) 85%);
+    display: flex;
+    justify-content: center;
+ } 
+ 
+ header .wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+     padding: 20px 0;
+    justify-content: space-between;
+    margin: 0;
+    max-width: 960px;
+    width: 100%;
+ }  
+ 
+ header .wrapper p{
+    text-align: right;
+ }
+
+ /* logo */
+
+.logo h1 {
+	font-size: 48px;
+}
+
+.logo h1 a {
+	color: #333;
+   font-family: 'Special Elite', cursive;
+}
+
+.logo h1 a:hover {
+	text-decoration: none;
+}
+
+.logo p {
+   color: #555;
+	font-size: 14px;
+	font-style: italic;
+}

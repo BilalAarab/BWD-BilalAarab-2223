@@ -1,0 +1,66 @@
+   /* ===========================================
+      Main
+      =========================================== */
+   
+   main {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      max-width: 960px;
+      width: 100%;
+   }
+   
+   .readmore{
+      display: flex;
+      margin-top: 10px;
+   }
+   /* left */
+   
+   .left {
+      padding: 30px 15px 0 15px;
+      width: 640px;
+     
+   }
+   
+   #gallery {
+      display: flex;
+      flex-flow: row wrap;
+      margin: 35px 0;
+      margin-bottom: 10px;
+   }
+
+   #gallery img{
+      max-width: 100%;
+   }
+   
+   #gallery a{
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      padding: 3px;
+      width: 25%;
+   }
+
+   /* right */
+   
+   .right {
+      float: right;
+      padding: 30px 15px 0 15px;
+      width: 34%;
+   }
+   
+   .right h3 a {
+      color: #333;
+      border-bottom: 1px solid #cccccc;
+   }
+   
+   .right h3 a:hover {
+      color: #be0a35;
+      text-decoration: none;
+   }
+   
+   .right img{ 
+      float: left;
+      margin-right: 10px;
+      width: 20%;
+   }

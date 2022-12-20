@@ -1,0 +1,25 @@
+/* navigation */
+
+#mainmenu {
+    align-content: center;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    justify-content: flex-end;
+    margin-top: 30px;
+ }
+ 
+ #mainmenu a {
+    color: #000;
+    display: block;
+    font-size: 17px;
+    margin: 10px;
+    text-transform: uppercase;
+ }
+ 
+ #mainmenu a:hover,
+ #mainmenu .active a {
+     color: #14833b;
+     text-decoration: none;
+ }
+ 
